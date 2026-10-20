@@ -1,0 +1,19 @@
+#
+# Web server with PHP
+# @see https://hub.docker.com/_/php
+# @see https://raw.githubusercontent.com/php/php-src/master/php.ini-production
+#
+services:
+  webserver:
+    image: php:8.5.11-apache-trixie
+    container_name: webserver
+    restart: unless-stopped
+    ports:
+      - 80:80
+    environment:
+      MYSQL_HOST: 'mariadb'
+      MYSQL_USER: 'root'
+      MYSQL_PASS: 'SloSkills2026'
+      TZ: 'Europe/Ljubljana'
+    volumes:
+      - ./webroot:/var/www/html
