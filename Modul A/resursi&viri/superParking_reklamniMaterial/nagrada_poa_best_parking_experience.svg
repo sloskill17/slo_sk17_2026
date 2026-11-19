@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320">
+
+    <!-- LOGO -->
+    <rect x="20" y="35" width="110" height="110" rx="6" fill="#0A7A48"/>
+    <rect x="145" y="35" width="110" height="110" rx="6" fill="#0A7A48"/>
+    <rect x="270" y="35" width="110" height="110" rx="6" fill="#0A7A48"/>
+
+    <text x="75" y="112"
+          text-anchor="middle"
+          font-family="Arial"
+          font-size="70"
+          font-weight="bold"
+          fill="white">B</text>
+
+    <text x="200" y="112"
+          text-anchor="middle"
+          font-family="Arial"
+          font-size="70"
+          font-weight="bold"
+          fill="white">P</text>
+
+    <text x="325" y="112"
+          text-anchor="middle"
+          font-family="Arial"
+          font-size="70"
+          font-weight="bold"
+          fill="white">E</text>
+
+    <!-- Star / Award Symbol -->
+
+    <g transform="translate(440,25)">
+        <polygon
+            points="85,0 105,60 170,60 118,100 138,160 85,122 32,160 52,100 0,60 65,60"
+            fill="#F5B400"/>
+    </g>
+
+    <!-- Text -->
+
+    <text x="20"
+          y="210"
+          font-family="Arial"
+          font-size="26"
+          fill="#0A7A48"
+          letter-spacing="2">
+          The absolute
+    </text>
+
+    <text x="20"
+          y="255"
+          font-family="Arial"
+          font-size="42"
+          font-weight="bold"
+          fill="#0A7A48">
+          BEST PARKING EXPERIENCE 2026
+    </text>
+
+    <text x="20"
+          y="295"
+          font-family="Arial"
+          font-size="24"
+          fill="#666666">
+          by Parking Operators Association
+    </text>
+
+</svg>

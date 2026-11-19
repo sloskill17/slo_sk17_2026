@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8E7A1"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#A67C00"/>
+    </linearGradient>
+
+    <linearGradient id="green" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#12805A"/>
+      <stop offset="100%" stop-color="#0B5A3F"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="400" cy="400" r="300" fill="url(#green)" stroke="url(#gold)" stroke-width="22"/>
+
+  <g fill="url(#gold)">
+    <path d="M175 420 C120 340 120 260 170 190 C145 270 145 340 205 410"/>
+    <path d="M195 380 C150 320 150 250 185 200 C170 260 175 315 225 370"/>
+    <path d="M625 420 C680 340 680 260 630 190 C655 270 655 340 595 410"/>
+    <path d="M605 380 C650 320 650 250 615 200 C630 260 625 315 575 370"/>
+  </g>
+
+  <text x="400" y="250" text-anchor="middle"
+        fill="#fff" font-size="42" font-weight="700"
+        font-family="Arial">
+    SUPERPARKING
+  </text>
+
+  <text x="400" y="300" text-anchor="middle"
+        fill="#D4AF37" font-size="24"
+        font-family="Arial">
+    najboljša izkušnja parkiranja
+  </text>
+
+  <g transform="translate(400,390)">
+    <rect x="-85" y="-25" width="170" height="70" rx="18"
+          fill="none" stroke="#fff" stroke-width="8"/>
+    <path d="M-55 -25 L-30 -70 L30 -70 L55 -25"
+          fill="none" stroke="#fff" stroke-width="8"/>
+    <text x="0" y="22" text-anchor="middle"
+          fill="#fff" font-size="46" font-weight="bold"
+          font-family="Arial">P</text>
+  </g>
+
+  <text x="400" y="520" text-anchor="middle"
+        fill="#fff" font-size="34"
+        font-family="Arial">
+    po izbiri šoferjev
+  </text>
+
+  <text x="400" y="590" text-anchor="middle"
+        fill="url(#gold)" font-size="72"
+        font-weight="bold"
+        font-family="Arial">
+    2026
+  </text>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300">
+
+  <rect x="20" y="30" width="110" height="90" rx="4" fill="#007A43"/>
+  <rect x="145" y="30" width="110" height="90" rx="4" fill="#007A43"/>
+  <rect x="270" y="30" width="110" height="90" rx="4" fill="#007A43"/>
+
+  <text x="75" y="95"
+        text-anchor="middle"
+        font-family="Arial"
+        font-size="62"
+        font-weight="bold"
+        fill="white">Z</text>
+
+  <text x="200" y="95"
+        text-anchor="middle"
+        font-family="Arial"
+        font-size="62"
+        font-weight="bold"
+        fill="white">P</text>
+
+  <text x="325" y="95"
+        text-anchor="middle"
+        font-family="Arial"
+        font-size="62"
+        font-weight="bold"
+        fill="white">P</text>
+
+  <g transform="translate(420,10)">
+    <path d="M0 110 C40 45 95 10 175 5"
+          stroke="#007A43"
+          stroke-width="12"
+          fill="none"/>
+
+    <path d="M15 115 C60 60 110 30 180 25"
+          stroke="#007A43"
+          stroke-width="12"
+          fill="none"/>
+
+    <path d="M35 120 C85 75 130 50 190 50"
+          stroke="#007A43"
+          stroke-width="12"
+          fill="none"/>
+  </g>
+
+  <text x="20"
+        y="190"
+        font-family="Arial"
+        font-size="32"
+        fill="#007A43"
+        letter-spacing="1">
+        ČLAN ZDRUŽENJA
+  </text>
+
+  <text x="20"
+        y="235"
+        font-family="Arial"
+        font-size="32"
+        fill="#007A43"
+        letter-spacing="1">
+        PONUDNIKOV PARKIRANJA
+  </text>
+
+</svg>
